@@ -11,7 +11,7 @@ jobs:
       - name: self-hosted
         shell: bash
         run: |
-          echo: "Runner Name: '${{ runner.name }}'"
-          echo: "Runner OS: '${{ runner.os }}'"
-          echo: "Runner Arch: '${{ runner.arch }}'"
+          echo "Runner Name: '${{ runner.name }}'"
+          echo "Runner OS: '${{ runner.os }}'"
+          echo "Runner Arch: '${{ runner.arch }}'"
             
